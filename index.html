@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8"/>
+    <title>Mi sitio web</title>
+    <meta name="description" content="Ejemplo de sitio web"/>
+    <meta name="robots" content="noindex"/>
+    <meta name="keywords" content="ejemplo, web"/>
+    <link rel="stylesheet" href="estilo.css"/>
+    
+    <!--
+    <style type="text/css">
+    h1,h2,h3,h4{font-size: 14px}
+    </style>
+    
+    <style type="text/css">
+        p{
+            color: blue;
+        }
+    </style>
+    -->
+    
+    <script type="text/javascrip" src="animacion.js"/></script>
+    
+</head>
+<body>
+  
+
+   <h1>Formulario</h1>
+   <form action="procesado.php">
+      
+       <label for="nombreq">Nombre:</label> <!-- Selecciona automaticamente el elemento especificado -->
+       <input type="text" name="nombre" id="nombreq"><br>
+       Apellido: <input type="text" name="apellido"><br>
+       
+       Enero <input type="checkbox" name="enero" value="01"><br>
+       Febrero <input type="checkbox" name="febrero" value="02"><br>
+       
+       <input type="file" name="archivo" accept="image/jpeg, image/x-png"><br>
+       
+       <input type="hidden" name="oculto" value="esp">
+       
+       <input type="password" name="contrasenia"><br>
+       
+       Gusto<br>
+       Musica <input type="radio" name="gusto" value="musica">
+       <input type="radio" name="gusto" value="comida">
+       <input type="radio" name="gusto" value="perfume"><br>
+       
+       <input type="reset">
+       <input type="submit" value="Mandar">
+       
+       <input type="button" value="BOTON"><br>
+       
+       <input type="color" name="color"><br>
+       <input type="date" name="fecha"><br>
+       <input type="email" name="correo"><br>
+       <input type="number" name="numero"><br>
+       <input type="range" name="rango" min="0" max="25" step="2"><br>
+       
+       <hr>
+       Mensaje<br>
+       <textarea name="mensaje" cols="30" rows="20"></textarea><br>
+       
+       <select name="paises">
+           <option value="argentina">Argentina</option>
+           <option value="mexico">Mexico</option>
+           <option value="bolivia">Bolivia</option>
+       </select>
+       
+       
+   </form>
+   
+   
+   
+    
+</body>
+</html>
